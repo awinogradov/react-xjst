@@ -1,26 +1,12 @@
 # react-xjst
 
-react-xjst
+ Virtual DOM react-provider engine for XJST.
 
 ## Getting Started
-Install the module with: `npm install react-xjst`
+Install the module with: `npm install --save react-xjst`
 
 ```javascript
-var react_xjst = require('react-xjst');
+var reactXjst = require('react-xjst');
 ```
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
-## Contributing
-
-
-## Release History
-_(Nothing yet)_
-
-## License
-Copyright (c) 2016 
-
+## License MIT
