@@ -11,7 +11,7 @@
     "url": "https://github.com/bem-contrib/react-xjst/issues"
   },
   "license": "MIT",
-  "main": "lib/react-xjst",
+  "main": "lib/",
   "engines": {
     "node": ">= 4.4.2"
   },
