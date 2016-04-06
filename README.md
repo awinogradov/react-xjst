@@ -1,5 +1,8 @@
 # react-xjst
 
+[![Build Status](https://travis-ci.org/bem-contrib/react-xjst.svg?branch=master)](https://travis-ci.org/bem-contrib/react-xjst)
+
+
  Virtual DOM react-provider engine for XJST.
 
 ## Getting Started
