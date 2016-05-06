@@ -57,4 +57,12 @@ describe('react-xjst', () => {
             ['div', { className: 'b2' }, 'b2-content', reactEl2, React.createElement.apply(null, b3Proto)]);
         checkResults(res, 'div', { children: [b1ReactEl, b2ReactEl] });
     });
+
+    it('should parse style property', () => {
+        var res = reactXjst(['div', { className: 'b1', style: 'top: 200px; z-index: 1000' }, 'b1-content']);
+        expect(res.props.style).toEqual({
+            top: '200px',
+            zIndex: '1000',
+        });
+    });
 });
