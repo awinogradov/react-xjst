@@ -27,7 +27,6 @@
   },
   "keywords": [],
   "dependencies": {
-    "camel-case": "^1.2.2",
-    "posthtml-attrs-parser": "^0.1.1"
+    "camel-case": "^1.2.2"
   }
 }
