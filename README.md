@@ -3,26 +3,27 @@
 [![Build Status](https://travis-ci.org/bem-contrib/react-xjst.svg?branch=master)](https://travis-ci.org/bem-contrib/react-xjst)
 
 
-Virtual DOM react-provider engine for XJST.
+Virtual DOM provider for XJST.
 
 ## Getting Started
 Install the module with: `npm install --save react-xjst`
 
-```js
-var reactXjst = require('react-xjst');
+``` jsx
 var React = require('react');
 var ReactDOM = require('react-dom');
-var templates = require('./templates'); // bundle with templates and bem-xjst compiler
 
-var provide = reactXjst(templates, React);
+var xjstAdapter = require('react-xjst');
+xjstAdapter.use(require('./templates.ddsl.js'), React);
 
-function MyComponent() {
-    return provide({
-        block: 'my-block'
-    });
+class MyComponent extends React.Component {
+    render() {
+      return xjstAdapter.provide({
+          block: 'my-block'
+      });
+    }
 }
 
-ReactDOM.render(React.createElement(MyComponent), document.getElementById('root'));
+ReactDOM.render(<MyComponent />, document.getElementById('root'));
 ```
 
 ## License MIT
