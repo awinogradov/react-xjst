@@ -1,14 +1,14 @@
 {
   "name": "react-xjst",
   "description": "react-xjst",
-  "version": "0.3.0",
-  "homepage": "https://github.com/bem-contrib/react-xjst",
+  "version": "1.0.0",
+  "homepage": "https://github.com/awinogradov/react-xjst",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bem-contrib/react-xjst.git"
+    "url": "git://github.com/awinogradov/react-xjst.git"
   },
   "bugs": {
-    "url": "https://github.com/bem-contrib/react-xjst/issues"
+    "url": "https://github.com/awinogradov/react-xjst/issues"
   },
   "license": "MIT",
   "main": "lib/",
