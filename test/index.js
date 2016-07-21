@@ -2,7 +2,7 @@ var React = require('react');
 var expect = require('expect');
 
 var templates = {
-    apply: d => d,
+    apply: d => d
 };
 
 var reactXjst = require('../lib');
@@ -63,7 +63,7 @@ describe('react-xjst', () => {
         var res = reactXjst.provide(['div', { className: 'b1', style: 'top: 200px; z-index: 1000' }, 'b1-content']);
         expect(res.props.style).toEqual({
             top: '200px',
-            zIndex: '1000',
+            zIndex: '1000'
         });
     });
 });
