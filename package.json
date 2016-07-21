@@ -16,7 +16,8 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "test": "npm run lint && npm run specs",
+    "pretest": "npm run lint",
+    "test": "npm run specs",
     "specs": "mocha",
     "lint": "jscs . && jshint ."
   },
