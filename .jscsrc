@@ -3,6 +3,8 @@
 
     "esnext": true,
 
+    "disallowTrailingComma": true,
+    "requireTrailingComma": false,
     "disallowSpacesInFunctionDeclaration": {
         "beforeOpeningRoundBrace": true
     },

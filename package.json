@@ -16,7 +16,10 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "test": "jscs ./ && jshint . && mocha --recursive"
+    "pretest": "npm run lint",
+    "test": "npm run specs",
+    "specs": "mocha",
+    "lint": "jscs . && jshint ."
   },
   "devDependencies": {
     "expect": "^1.13.4",
