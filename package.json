@@ -11,7 +11,7 @@
     "url": "https://github.com/awinogradov/react-xjst/issues"
   },
   "license": "MIT",
-  "main": "lib/",
+  "main": "build",
   "engines": {
     "node": ">= 4.0.0"
   },
@@ -22,6 +22,9 @@
     "lint": "jscs . && jshint ."
   },
   "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-preset-airbnb": "^2.0.0",
     "expect": "^1.13.4",
     "jscs": "^2.9.0",
     "jshint": "^2.9.1",
