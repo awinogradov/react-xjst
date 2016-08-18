@@ -1,9 +1,9 @@
-# react-xjst
+# DEPRECATED: react-xjst
 
 [![Build Status](https://travis-ci.org/awinogradov/react-xjst.svg?branch=master)](https://travis-ci.org/awinogradov/react-xjst)
 
 
-Virtual DOM provider for XJST.
+Virtual DOM provider for XJST. But the better way is https://github.com/awinogradov/ddsl-react.
 
 ## Getting Started
 Install the module with: `npm install --save react-xjst`
