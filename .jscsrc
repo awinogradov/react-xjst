@@ -19,6 +19,7 @@
     "excludeFiles": [
         "node_modules/**",
         "test/bem-project/**",
+        "build",
         ".git/**"
     ],
     "maximumLineLength": 120,
